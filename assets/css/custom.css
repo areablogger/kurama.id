@@ -1,0 +1,35 @@
+@font-face{font-family:Modern Era;font-style:normal;font-display:swap;src:local("Modern Era Regular"),local("ModernEra-Regular"),url(/assets/fonts/ModernEra/ModernEra-Regular.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}
+@font-face{font-family:Modern Era;font-style:normal;font-display:swap;font-weight:700;src:local("Modern Era Bold"),local("ModernEra-Bold"),url(/assets/fonts/ModernEra/ModernEra-Bold.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}
+body{font-family:'Modern Era',sans-serif;background:#fcfcfc}
+a:link{color:#e523e5;text-decoration:underline;text-underline-position:under}
+a:visited{color:#650065}
+a:hover{text-decoration:none}
+a.linktitle{color:#000;text-decoration:none;}
+h1,h2,h3,h4,p{margin:0}
+.container{max-width:600px}
+.box{padding:40px;box-shadow:2px 2px 7px #f1f1f1;border-radius:10px;background:#fff}
+.box,.description{margin-bottom:15px}
+.title{text-align:center;padding:15px 0}
+
+/** post */
+.post-title a, .post-title a:visited{color:#000;text-decoration:none}
+.post-title a:hover{color:#e523e5}
+.post-title h2, .post-title h1{font-size:3rem;margin-bottom:5px}
+.post-date{margin-bottom:15px}
+.post-date .date{font-size:90%;color:#666}
+.post-content{padding:20px 0;}
+.post-content h2{font-size:22px;margin-bottom:15px}
+.post-content p{font-size:17px;margin-bottom:17px}
+.post-content img{max-width:calc(100% + 80px);height:auto;margin-left:-40px;margin-right:-40px}
+.post-category{background:url('/assets/images/category.svg') center left/16px no-repeat;padding-left:25px}
+.post-tags{background:url('/assets/images/tags.svg') center left/16px no-repeat;padding-left:25px}
+
+/* copyright */
+.copyright {text-align: center;padding:50px 0}
+
+@media(max-width:500px){
+  body{background:#fff}
+  .box{max-width: 100%;padding: 15px 0;box-shadow: none;border-top: 1.5px solid #ededed;border-radius: 0}
+  .post-content img {max-width: calc(100% + 40px);margin-left: -20px;margin-right: -20px}
+
+}
